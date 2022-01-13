@@ -32,8 +32,8 @@ public class Main {
     public static void printVersionDetails(ArtifactVersion version) {
         System.out.println("\t Major version:" + version.getMajorVersion());
         System.out.println("\t Minor version:" + version.getMinorVersion());
-        System.out.println("\t Patch version:" + version.getIncrementalVersion());
-        System.out.println("\t Major version:" + version.getBuildNumber());
-        System.out.println("\t Major version:" + version.getQualifier());
+        System.out.println("\t Incremental version:" + version.getIncrementalVersion());
+        System.out.println("\t Build number:" + version.getBuildNumber());
+        System.out.println("\t Qualifier:" + version.getQualifier());
     }
 }
